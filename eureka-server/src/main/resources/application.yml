@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-eureka
+server:
+  port: 8800
+eureka:
+  client:
+    register-with-eureka: false  #不将自己注册到eureka
+    fetch-registry: false         #不从eureka获取注册信息
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
