@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: confgi-client
+server:
+  port: 8002
