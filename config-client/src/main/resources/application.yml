@@ -1,5 +1,10 @@
 spring:
   application:
-    name: confgi-client
+    name: config-client
 server:
-  port: 8002
+  port: 8088
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh

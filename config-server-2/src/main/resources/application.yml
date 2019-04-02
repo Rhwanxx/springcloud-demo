@@ -10,7 +10,7 @@ spring:
           username: Rhwanxx
           password: qq19930202
 server:
-  port: 8081
+  port: 8080
 
 management:
   endpoints:
